@@ -8,8 +8,8 @@ import Home from './container/Home/Home';
 import Login from './container/Login/Login';
 import Form from './container/Form/Form';
 import TestRedux from './container/TestRedux/TestRedux';
-import Carousel from './container/Carousel/Carousel';
-import TestAntd from './container/AntdComponents/Test'
+// import Carousel from './container/Carousel/Carousel';
+// import TestAntd from './container/AntdComponents/Test'
 import Header from './container/AntdComponents/Header'
 import HookPage from './container/Hook/HookPage'
 import TextPage from './container/TestFunction/TextPage'
@@ -24,8 +24,8 @@ const App = withRouter((props)=> {
             <Route path='/login' exact component={Login}/>
             <Route path='/form' exact component={Form}/>
             <Route path='/redux_test' exact component={TestRedux}/>
-            <Route path='/carousel' exact component={Carousel}/>
-            <Route path='/antdtest' exact component={TestAntd}/>
+            {/* <Route path='/carousel' exact component={Carousel}/> */}
+            {/* <Route path='/antdtest' exact component={TestAntd}/> */}
             <Route path='/hook' exact component={HookPage}/>
             <Route path='/tests' exact component={TextPage}/>
             <Route path='/reactdemo' exact component={GameDemo}/>

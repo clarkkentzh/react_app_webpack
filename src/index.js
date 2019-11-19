@@ -6,7 +6,7 @@ import { createStore, combineReducers } from 'redux';
 import * as reducers from './reducer/reducer';
 import { Provider } from 'react-redux';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
 } from 'react-router-dom';
 
 let reducer;
